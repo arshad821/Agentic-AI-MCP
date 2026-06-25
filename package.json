@@ -1,0 +1,21 @@
+{
+  "name": "agenticai-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "mcp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Playwright project for AgenticAI MCP",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "playwright": "^1.61.1"
+  }
+}
